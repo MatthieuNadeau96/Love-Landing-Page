@@ -47,29 +47,38 @@
   height: 100%;
   background-color: #fff;
   position: fixed;
-  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 8px 0 17px 1px rgba(0, 0, 0, 0.05);
   top: 0;
   left: 0;
-  width: 65%;
+  width: 70%;
+  max-width: 400px;
+  transform: translateX(-130%);
+  transition: transform 250ms ease-out;
   ul {
     height: 100%;
     list-style: none;
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-size: 1.2em;
-    a {
-      text-decoration: none;
-      color: inherit;
-      margin: 0 auto;
-      li {
-        margin: 0.5rem 0;
-      }
+    li {
+      margin: 0.5rem 0;
       :hover,:active {
         color: #e99b16;
       }
+      a {
+        text-decoration: none;
+        color: inherit;
+        margin: 0 auto;
+      }
     }
   }
+}
+
+.navMenu.open {
+  transform: translateX(-10%);
 }
 
 .backdrop {

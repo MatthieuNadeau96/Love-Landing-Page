@@ -22,20 +22,18 @@ class HomePage extends Component {
   }
 
   render() {
-    let navMenu;
     let backdrop;
 
     if (this.state.navMenuOpen) {
-      navMenu = <NavMenu/>;
       backdrop = <Backdrop click={this.backdropToggle}/>;
     }
 
     return (
       <div>
         <NavBar toggleNavMenu={this.toggleNavMenu}/>
+        <NavMenu show={this.state.navMenuOpen}/>
         {backdrop}
         <h1>TITLE</h1>
-        {navMenu}
       </div>
     );
   }
