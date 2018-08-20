@@ -10,7 +10,7 @@
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  background-color: lightgrey;
+  background-color: #eee;
   text-transform: uppercase;
 }
 .navBar a {
@@ -147,6 +147,51 @@
   .homePage .homeContent .subTitle {
     font-size: 1.4em;
     margin-bottom: 80px;
+  }
+}
+.servicePage {
+  background-color: lightblue;
+}
+.servicePage .serviceContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 100%;
+  width: 75%;
+  padding: 80px 0 150px 0;
+  margin: 0 auto;
+}
+.servicePage .serviceContainer .content {
+  font-size: 1.2em;
+  padding: 5px;
+  margin: 0 auto;
+}
+.servicePage .serviceContainer .content .image {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+.servicePage .serviceContainer .content .title {
+  font-size: 1.5em;
+  margin-bottom: 14px;
+}
+.servicePage .serviceContainer .content .text {
+  font-size: 0.85em;
+  margin-bottom: 20px;
+}
+
+.page-title {
+  padding-top: 70px;
+  font-size: 40px;
+}
+
+@media (max-width: 750px) {
+  .servicePage .serviceContainer {
+    padding: 40px 0 80px 0;
+    flex-direction: column;
+    width: 65%;
+  }
+  .servicePage .serviceContainer .content {
+    margin-top: 40px;
   }
 }
 
