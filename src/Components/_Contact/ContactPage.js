@@ -4,7 +4,7 @@ class ContactPage extends Component {
 
   render() {
     return (
-      <div></div>
+      <div>ContactPage</div>
     );
   }
 
