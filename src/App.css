@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  height: 100%;
 }
 
 .navBar {
@@ -12,10 +11,14 @@
   flex-direction: row;
   align-items: center;
   background-color: lightgrey;
+  text-transform: uppercase;
 }
 .navBar a {
   text-decoration: none;
   color: inherit;
+}
+.navBar a :hover, .navBar a :active {
+  color: #e99b16;
 }
 .navBar a li {
   display: inline-block;
@@ -62,6 +65,7 @@
   flex-direction: column;
   justify-content: center;
   font-size: 1.2em;
+  text-transform: uppercase;
 }
 .navMenu ul li {
   margin: 0.5rem 0;
@@ -101,6 +105,48 @@
 @media (min-width: 750px) {
   .navButton {
     display: none;
+  }
+}
+.homePage {
+  background-color: pink;
+}
+.homePage .homeContent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 75%;
+  padding: 150px 0 100px 0;
+  margin: 0 auto;
+}
+.homePage .homeContent .title {
+  font-size: 4em;
+  margin-bottom: 40px;
+}
+.homePage .homeContent .subTitle {
+  font-size: 1.8em;
+  margin-bottom: 80px;
+}
+.homePage .homeContent .learnMoreBtn {
+  margin: 0 auto;
+}
+.homePage .homeContent .learnMoreBtn button {
+  padding: 15px 25px;
+  background: yellow;
+  border: none;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@media (max-width: 750px) {
+  .homePage .homeContent .title {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  .homePage .homeContent .subTitle {
+    font-size: 1.4em;
+    margin-bottom: 80px;
   }
 }
 

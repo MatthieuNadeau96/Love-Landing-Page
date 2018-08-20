@@ -29,11 +29,17 @@ class HomePage extends Component {
     }
 
     return (
-      <div>
+      <div className="homePage">
         <NavBar toggleNavMenu={this.toggleNavMenu}/>
         <NavMenu show={this.state.navMenuOpen}/>
         {backdrop}
-        <h1>TITLE</h1>
+        <div className="homeContent">
+          <div className="title">Love Landing</div>
+          <div className="subTitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+          <div className="learnMoreBtn">
+            <button>Learn More</button>
+          </div>
+        </div>
       </div>
     );
   }
