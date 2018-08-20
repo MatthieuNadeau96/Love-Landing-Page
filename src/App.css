@@ -194,5 +194,42 @@
     margin-top: 40px;
   }
 }
+.aboutPage {
+  background-color: yellow;
+}
+.aboutPage .aboutContainer {
+  padding: 100px 0 100px 0;
+  width: 60%;
+  margin: 0 auto;
+}
+.aboutPage .aboutContainer .title {
+  font-size: 40px;
+  padding-bottom: 2px;
+}
+.aboutPage .aboutContainer .underline {
+  border-bottom: 2px solid black;
+  width: 50%;
+  margin: 20px auto;
+}
+.aboutPage .aboutContainer .text {
+  padding-top: 2px;
+}
+.aboutPage .aboutContainer .aboutButton {
+  margin: 60px auto 0 auto;
+}
+.aboutPage .aboutContainer .aboutButton button {
+  padding: 15px 25px;
+  background: #fff;
+  border: none;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@media (max-width: 750px) {
+  .aboutPage .aboutContainer {
+    width: 80%;
+  }
+}
 
 /*# sourceMappingURL=app.css.map */

@@ -224,3 +224,49 @@
     }
   }
 }
+
+
+
+// ABOUT PAGE //
+
+
+
+.aboutPage {
+  background-color: yellow;
+  .aboutContainer {
+    padding: 100px 0 100px 0;
+    width: 60%;
+    margin: 0 auto;
+    .title {
+      font-size: 40px;
+      padding-bottom: 2px;
+    }
+    .underline {
+      border-bottom: 2px solid black;
+      width: 50%;
+      margin: 20px auto;
+    }
+    .text {
+      padding-top: 2px;
+    }
+    .aboutButton {
+      margin: 60px auto 0 auto;
+      button {
+        padding: 15px 25px;
+        background: #fff;
+        border: none;
+        font-size: 1em;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .aboutPage {
+    .aboutContainer {
+      width: 80%;
+    }
+  }
+}
