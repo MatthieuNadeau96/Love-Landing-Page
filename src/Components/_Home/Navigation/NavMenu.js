@@ -10,9 +10,9 @@ const NavMenu = props => {
   return (
     <div className={menuClasses.join(' ')}>
       <ul>
-        <li><a href="/">Services</a></li>
-        <li><a href="/">About</a></li>
-        <li><a href="/">Contact</a></li>
+        <li><a href="#services" onClick={props.clicked}>Services</a></li>
+        <li><a href="#about" onClick={props.clicked}>About</a></li>
+        <li><a href="#contact" onClick={props.clicked}>Contact</a></li>
       </ul>
     </div>
   )

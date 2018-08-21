@@ -2,7 +2,7 @@ import React from 'react';
 
 const Logo = props => (
   <div className="logo">
-    LOGO
+    <a href="#home">LOGO</a>
   </div>
 );
 

@@ -7,6 +7,11 @@ import Backdrop from './Navigation/Backdrop';
 
 class HomePage extends Component {
 
+  constructor(props) {
+  super(props);
+  this.myRef = React.createRef();
+}
+
   state = {
     navMenuOpen: false
   }
@@ -21,6 +26,10 @@ class HomePage extends Component {
     this.setState({ navMenuOpen: false })
   }
 
+  handleScrollToElement = (e) => {
+    window.scrollTo(0, this.myRef);
+  }
+
   render() {
     let backdrop;
 
@@ -31,7 +40,7 @@ class HomePage extends Component {
     return (
       <div className="homePage">
         <NavBar toggleNavMenu={this.toggleNavMenu}/>
-        <NavMenu show={this.state.navMenuOpen}/>
+        <NavMenu show={this.state.navMenuOpen} clicked={this.backdropToggle}/>
         {backdrop}
         <div className="homeContent">
           <div className="title">Love Landing</div>
