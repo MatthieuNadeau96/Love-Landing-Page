@@ -11,7 +11,8 @@
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  background-color: #eee;
+  background-color: #222;
+  color: #fff;
   text-transform: uppercase;
 }
 .navBar a {
@@ -109,7 +110,12 @@
   }
 }
 .homePage {
-  background-color: pink;
+  background: url("./img/bg-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: scroll;
+  box-sizing: border-box;
 }
 .homePage .homeContent {
   display: flex;
@@ -119,6 +125,7 @@
   width: 75%;
   padding: 150px 0 100px 0;
   margin: 0 auto;
+  color: #fff;
 }
 .homePage .homeContent .title {
   font-size: 4em;
@@ -149,6 +156,14 @@
   .homePage .homeContent .subTitle {
     font-size: 1.4em;
     margin-bottom: 80px;
+  }
+}
+@media (min-width: 1000px) {
+  .homePage {
+    height: 100vh;
+  }
+  .homePage .homeContent {
+    padding: 50px 0 100px;
   }
 }
 .servicePage {

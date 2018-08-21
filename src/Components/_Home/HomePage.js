@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
 import NavBar from './Navigation/NavBar/NavBar';
-
 import NavMenu from './Navigation/NavMenu';
 import Backdrop from './Navigation/Backdrop';
+
 
 class HomePage extends Component {
 

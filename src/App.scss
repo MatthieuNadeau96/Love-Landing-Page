@@ -1,8 +1,6 @@
 
-
 .App {
   text-align: center;
-  // height: 100%;
 }
 
 
@@ -19,7 +17,8 @@
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  background-color: #eee;
+  background-color: #222;
+  color: #fff;
   text-transform: uppercase;
   a {
     text-decoration: none;
@@ -122,8 +121,12 @@
 
 
 .homePage {
-  background-color: pink;
-
+  background: url("./img/bg-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: scroll;
+  box-sizing: border-box;
   .homeContent {
     display: flex;
     justify-content: center;
@@ -132,6 +135,7 @@
     width: 75%;
     padding: 150px 0 100px 0;
     margin: 0 auto;
+    color: #fff;
     .title {
       font-size: 4em;
       margin-bottom: 40px;
@@ -155,7 +159,7 @@
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 750px) { // MOBILE
   .homePage {
     .homeContent {
       .title {
@@ -166,6 +170,15 @@
         font-size: 1.4em;
         margin-bottom: 80px;
       }
+    }
+  }
+}
+
+@media (min-width: 1000px) { // DESKTOP
+  .homePage {
+    height: 100vh;
+    .homeContent {
+      padding: 50px 0 100px;
     }
   }
 }
