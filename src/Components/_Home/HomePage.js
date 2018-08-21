@@ -46,7 +46,7 @@ class HomePage extends Component {
           <div className="title">Love Landing</div>
           <div className="subTitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
           <div className="learnMoreBtn">
-            <button>Learn More</button>
+            <a href="#services"><button>Learn More</button></a>
           </div>
         </div>
       </div>
