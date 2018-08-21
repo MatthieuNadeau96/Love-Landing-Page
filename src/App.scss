@@ -322,6 +322,9 @@
           font-size: 2em;
           a {
             color: inherit;
+            :hover,:active {
+              color: #e99b16;
+            }
           }
         }
       }

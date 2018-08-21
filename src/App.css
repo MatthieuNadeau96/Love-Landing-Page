@@ -278,6 +278,9 @@
 .contactPage .contactContainer .socialLinks ul li a {
   color: inherit;
 }
+.contactPage .contactContainer .socialLinks ul li a :hover, .contactPage .contactContainer .socialLinks ul li a :active {
+  color: #e99b16;
+}
 .contactPage .contactContainer .copyright {
   font-size: 0.7em;
   float: right;
