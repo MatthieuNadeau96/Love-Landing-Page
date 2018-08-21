@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+import SocialLinks from './SocialLinks';
+import Copyright from './Copyright';
+
 class ContactPage extends Component {
 
   render() {
@@ -14,6 +17,8 @@ class ContactPage extends Component {
             <textarea rows="1" name="message" placeholder="Your Message"/>
             <button>Send Message</button>
           </form>
+          <SocialLinks/>
+          <Copyright/>
         </div>
       </div>
     );

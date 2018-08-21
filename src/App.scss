@@ -281,36 +281,92 @@
   background-color: lightgreen;
 
   .contactContainer {
-    padding: 90px 0 125px 0;
+    padding: 90px 0 25px 0;
     .title {
       font-size: 40px;
       margin-bottom: 50px;
     }
-  }
-
-  .contactForm {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    margin: 0 auto;
-    input, textarea {
-      margin-top: 10px;
-      padding: 15px 5px;
-      border: none;
-      // border-radius: 5px;
-      // border: 1px solid #ccc;
-      // box-shadow: 1px 1px 1px #999;
+    .contactForm {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      margin: 0 auto;
+      input, textarea {
+        margin-top: 10px;
+        padding: 15px 5px;
+        border: none;
+        // border-radius: 5px;
+        // border: 1px solid #ccc;
+        // box-shadow: 1px 1px 1px #999;
+      }
+      button {
+        margin: 25px auto;
+        padding: 15px 25px;
+        background: yellow;
+        border: none;
+        font-size: 1em;
+        text-transform: uppercase;
+        font-weight: bold;
+        cursor: pointer;
+      }
     }
-    button {
-      margin: 25px auto;
-      padding: 15px 25px;
-      background: yellow;
-      border: none;
-      font-size: 1em;
-      text-transform: uppercase;
-      font-weight: bold;
-      cursor: pointer;
+    .socialLinks {
+      ul {
+        list-style: none;
+        margin: 100px auto 0 auto;
+        padding: 0;
+        li {
+          display: inline-block;
+          padding: 0 15px;
+          font-size: 2em;
+          a {
+            color: inherit;
+          }
+        }
+      }
+    }
+    .copyright {
+      font-size: .7em;
+      float: right;
+      padding: 0 20px 0 0;
     }
   }
+}
 
+@media (max-width: 750px) {
+    .contactPage {
+      .contactContainer {
+        .socialLinks {
+          ul {
+            margin: 75px 0 10px 0;
+          }
+        }
+        .copyright {
+          float: none;
+          padding: 10px 0;
+          text-align: center;
+        }
+      }
+    }
+}
+
+@media (max-width: 320px) {
+    .contactPage {
+      .contactContainer {
+        .socialLinks {
+          ul {
+            display: flex;
+            flex-direction: column;
+            li {
+              padding: 15px 0;
+            }
+          }
+        }
+        .copyright {
+          float: none;
+          padding: 10px 0;
+          text-align: center;
+        }
+      }
+    }
 }
