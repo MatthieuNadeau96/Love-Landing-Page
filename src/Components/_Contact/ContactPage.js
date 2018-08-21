@@ -11,12 +11,12 @@ class ContactPage extends Component {
         <div className="contactContainer">
           <div className="title">Get in touch</div>
           <form className="contactForm">
-            <input type="text" name="name" className="name" placeholder="Your Name"/>
-            <input type="tel" name="phone" className="phone" placeholder="Your Phone Number"/>
-            <input type="email" name="email" className="email" placeholder="Your Email"/>
-            <textarea rows="1" name="message" placeholder="Your Message"/>
-            <a href="/"><button>Send Message</button></a>
+            <input className="name" type="text" name="name" placeholder="Your Name"/>
+            <input className="phone" type="tel" name="phone" placeholder="Your Phone Number"/>
+            <input className="email" type="email" name="email" placeholder="Your Email"/>
+            <textarea className="message" name="message" placeholder="Your Message"/>
           </form>
+          <a href="/"><button>Send Message</button></a>
           <SocialLinks/>
           <Copyright/>
         </div>
