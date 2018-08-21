@@ -15,7 +15,7 @@ class ContactPage extends Component {
             <input type="tel" name="phone" className="phone" placeholder="Your Phone Number"/>
             <input type="email" name="email" className="email" placeholder="Your Email"/>
             <textarea rows="1" name="message" placeholder="Your Message"/>
-            <button>Send Message</button>
+            <a href="/"><button>Send Message</button></a>
           </form>
           <SocialLinks/>
           <Copyright/>
