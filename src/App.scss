@@ -148,12 +148,16 @@
       margin: 0 auto;
       button {
         padding: 15px 25px;
-        background: yellow;
+        background: tan;
+        color: #333;
         border: none;
         font-size: 1em;
         text-transform: uppercase;
         font-weight: bold;
         cursor: pointer;
+        :active {
+          border: none;
+        }
       }
     }
   }
@@ -247,7 +251,7 @@
 
 
 .aboutPage {
-  background-color: yellow;
+  background-color: orange;
   .aboutContainer {
     padding: 100px 0 100px 0;
     width: 60%;
@@ -292,7 +296,7 @@
 // CONTACT PAGE //
 
 .contactPage {
-  background-color: lightgreen;
+  background-color: pink;
 
   .contactContainer {
     padding: 90px 0 25px 0;
