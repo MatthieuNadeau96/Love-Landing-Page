@@ -11,16 +11,17 @@
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  background-color: #222;
-  color: #fff;
+  background-color: #FFFFFF;
+  color: #4B4944;
   text-transform: uppercase;
+  font-weight: bold;
 }
 .navBar a {
   text-decoration: none;
   color: inherit;
 }
 .navBar a :hover, .navBar a :active {
-  color: #e99b16;
+  color: #4F7398;
 }
 .navBar a li {
   display: inline-block;
@@ -48,7 +49,8 @@
   margin: 0;
   padding: 0;
   height: 100%;
-  background-color: #fff;
+  background-color: #F9F8F3;
+  color: #4B4944;
   position: fixed;
   box-shadow: 8px 0 17px 1px rgba(0, 0, 0, 0.05);
   top: 0;
@@ -73,7 +75,7 @@
   margin: 0.5rem 0;
 }
 .navMenu ul li :hover, .navMenu ul li :active {
-  color: #e99b16;
+  color: #4F7398;
 }
 .navMenu ul li a {
   text-decoration: none;
@@ -115,6 +117,7 @@
   background-size: cover;
   background-position: center center;
   background-attachment: scroll;
+  background-color: #EAD170;
   box-sizing: border-box;
 }
 .homePage .homeContent {
@@ -125,7 +128,7 @@
   width: 75%;
   padding: 150px 0 100px 0;
   margin: 0 auto;
-  color: #fff;
+  color: #F9F8F3;
 }
 .homePage .homeContent .title {
   font-size: 4em;
@@ -140,8 +143,9 @@
 }
 .homePage .homeContent .learnMoreBtn button {
   padding: 15px 25px;
-  background: tan;
-  color: #333;
+  background: #4F7398;
+  border-radius: 25px;
+  color: #F9F8F3;
   border: none;
   font-size: 1em;
   text-transform: uppercase;
@@ -171,7 +175,8 @@
   }
 }
 .servicePage {
-  background-color: lightblue;
+  background-color: #F9F8F3;
+  color: #4B4944;
 }
 .servicePage .serviceContainer {
   display: flex;
@@ -190,6 +195,7 @@
 .servicePage .serviceContainer .content .image {
   font-size: 3em;
   margin-bottom: 20px;
+  color: #EAD170;
 }
 .servicePage .serviceContainer .content .title {
   font-size: 1.5em;
@@ -216,7 +222,8 @@
   }
 }
 .aboutPage {
-  background-color: orange;
+  background-color: #FFFFFF;
+  color: #4B4944;
 }
 .aboutPage .aboutContainer {
   padding: 100px 0 100px 0;
@@ -240,7 +247,9 @@
 }
 .aboutPage .aboutContainer .aboutButton button {
   padding: 15px 25px;
-  background: #fff;
+  background: #4B4944;
+  color: #F9F8F3;
+  border-radius: 25px;
   border: none;
   font-size: 1em;
   text-transform: uppercase;
@@ -254,7 +263,8 @@
   }
 }
 .contactPage {
-  background-color: pink;
+  background-color: #EAD170;
+  color: #4B4944;
 }
 .contactPage .contactContainer {
   padding: 90px 0 25px 0;
@@ -270,17 +280,18 @@
   margin: 0 auto;
 }
 .contactPage .contactContainer .contactForm input, .contactPage .contactContainer .contactForm textarea {
+  background-color: #F9F8F3;
+  color: #4B4944;
   margin-top: 10px;
   padding: 15px 5px;
   border: none;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  box-shadow: 1px 1px 1px #999;
 }
 .contactPage .contactContainer button {
   margin: 25px auto;
   padding: 15px 25px;
-  background: yellow;
+  background: #4F7398;
+  color: #F9F8F3;
+  border-radius: 25px;
   border: none;
   font-size: 1em;
   text-transform: uppercase;
@@ -298,10 +309,11 @@
   font-size: 2em;
 }
 .contactPage .contactContainer .socialLinks ul li a {
-  color: inherit;
+  color: #4B4944;
 }
 .contactPage .contactContainer .socialLinks ul li a :hover, .contactPage .contactContainer .socialLinks ul li a :active {
-  color: #e99b16;
+  color: #F9F8F3;
+  opacity: 0.7;
 }
 .contactPage .contactContainer .copyright {
   font-size: 0.7em;

@@ -1,4 +1,15 @@
 
+
+// Color Variables
+$base-color: #EAD170;
+$dark-grey: #4B4944;
+$light-grey: #F9F8F3;
+$accent-color: #4F7398;
+$white: #FFFFFF;
+
+
+
+
 .App {
   text-align: center;
 }
@@ -17,14 +28,15 @@
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  background-color: #222;
-  color: #fff;
+  background-color: $white;
+  color: $dark-grey;
   text-transform: uppercase;
+  font-weight: bold;
   a {
     text-decoration: none;
     color: inherit;
     :hover,:active {
-      color: #e99b16;
+      color: $accent-color;
     }
     li {
       display: inline-block;
@@ -54,7 +66,8 @@
   margin: 0;
   padding: 0;
   height: 100%;
-  background-color: #fff;
+  background-color: $light-grey;
+  color: $dark-grey;
   position: fixed;
   box-shadow: 8px 0 17px 1px rgba(0, 0, 0, 0.05);
   top: 0;
@@ -76,7 +89,7 @@
     li {
       margin: 0.5rem 0;
       :hover,:active {
-        color: #e99b16;
+        color: $accent-color;
       }
       a {
         text-decoration: none;
@@ -120,12 +133,14 @@
 // HOME PAGE //
 
 
+
 .homePage {
   background: url("./img/bg-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: scroll;
+  background-color: $base-color;
   box-sizing: border-box;
   .homeContent {
     display: flex;
@@ -135,7 +150,7 @@
     width: 75%;
     padding: 150px 0 100px 0;
     margin: 0 auto;
-    color: #fff;
+    color: $light-grey;
     .title {
       font-size: 4em;
       margin-bottom: 40px;
@@ -148,8 +163,9 @@
       margin: 0 auto;
       button {
         padding: 15px 25px;
-        background: tan;
-        color: #333;
+        background: $accent-color;
+        border-radius: 25px;
+        color: $light-grey;
         border: none;
         font-size: 1em;
         text-transform: uppercase;
@@ -191,8 +207,11 @@
 
 // SERVICES PAGE //
 
+
+
 .servicePage {
-  background-color: lightblue;
+  background-color: $light-grey;
+  color: $dark-grey;
 
   .serviceContainer {
     display: flex;
@@ -210,6 +229,7 @@
       .image {
         font-size: 3em;
         margin-bottom: 20px;
+        color: $base-color;
       }
       .title {
         font-size: 1.5em;
@@ -251,7 +271,8 @@
 
 
 .aboutPage {
-  background-color: orange;
+  background-color: $white;
+  color: $dark-grey;
   .aboutContainer {
     padding: 100px 0 100px 0;
     width: 60%;
@@ -272,7 +293,9 @@
       margin: 60px auto 0 auto;
       button {
         padding: 15px 25px;
-        background: #fff;
+        background: $dark-grey;
+        color: $light-grey;
+        border-radius: 25px;
         border: none;
         font-size: 1em;
         text-transform: uppercase;
@@ -296,7 +319,8 @@
 // CONTACT PAGE //
 
 .contactPage {
-  background-color: pink;
+  background-color: $base-color;
+  color: $dark-grey;
 
   .contactContainer {
     padding: 90px 0 25px 0;
@@ -310,18 +334,19 @@
       width: 50%;
       margin: 0 auto;
       input, textarea {
+        background-color: $light-grey;
+        color: $dark-grey;
         margin-top: 10px;
         padding: 15px 5px;
         border: none;
-        border-radius: 5px;
-        border: 1px solid #ccc;
-        box-shadow: 1px 1px 1px #999;
       }
     }
     button {
       margin: 25px auto;
       padding: 15px 25px;
-      background: yellow;
+      background: $accent-color;
+      color: $light-grey;
+      border-radius: 25px;
       border: none;
       font-size: 1em;
       text-transform: uppercase;
@@ -338,9 +363,10 @@
           padding: 0 15px;
           font-size: 2em;
           a {
-            color: inherit;
+            color: $dark-grey;
             :hover,:active {
-              color: #e99b16;
+              color: $light-grey;
+              opacity: .7;
             }
           }
         }
