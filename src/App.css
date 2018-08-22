@@ -323,11 +323,11 @@
   transition: 170ms;
 }
 .contactPage .contactContainer .socialLinks ul li a {
-  color: #F9F8F3;
+  color: #FFFFFF;
 }
 .contactPage .contactContainer .socialLinks ul li a :hover, .contactPage .contactContainer .socialLinks ul li a :active {
-  color: #4B4944;
-  opacity: 0.8;
+  color: #F9F8F3;
+  opacity: 0.6;
 }
 .contactPage .contactContainer .copyright {
   color: inherit;

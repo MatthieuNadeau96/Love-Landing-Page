@@ -378,10 +378,10 @@ $white: #FFFFFF;
             transition: 170ms;
           }
           a {
-            color: $light-grey;
+            color: $white;
             :hover,:active {
-              color: $dark-grey;
-              opacity: .8;
+              color: $light-grey;
+              opacity: .6;
             }
           }
         }
