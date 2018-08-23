@@ -11,8 +11,8 @@
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  background-color: #4B4944;
-  color: #F9F8F3;
+  background-color: #44494F;
+  color: #E0E6EB;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -49,8 +49,8 @@
   margin: 0;
   padding: 0;
   height: 100%;
-  background-color: #F9F8F3;
-  color: #4B4944;
+  background-color: #E0E6EB;
+  color: #44494F;
   position: fixed;
   box-shadow: 8px 0 17px 1px rgba(0, 0, 0, 0.05);
   top: 0;
@@ -135,7 +135,7 @@
   width: 75%;
   padding: 150px 0 100px 0;
   margin: 0 auto;
-  color: #F9F8F3;
+  color: #E0E6EB;
 }
 .homePage .homeContent .title {
   font-size: 4em;
@@ -184,7 +184,7 @@
 }
 .servicePage {
   background-color: #FFFFFF;
-  color: #4B4944;
+  color: #44494F;
 }
 .servicePage .serviceContainer {
   display: flex;
@@ -231,8 +231,8 @@
   }
 }
 .aboutPage {
-  background-color: #F9F8F3;
-  color: #4B4944;
+  background-color: #E0E6EB;
+  color: #44494F;
 }
 .aboutPage .aboutContainer {
   padding: 100px 0 100px 0;
@@ -256,8 +256,8 @@
 }
 .aboutPage .aboutContainer .aboutButton button {
   padding: 15px 25px;
-  background: #4B4944;
-  color: #F9F8F3;
+  background: #44494F;
+  color: #E0E6EB;
   border-radius: 25px;
   border: none;
   font-size: 1em;
@@ -274,7 +274,7 @@
 }
 .contactPage {
   background-color: #4F7398;
-  color: #F9F8F3;
+  color: #E0E6EB;
 }
 .contactPage .contactContainer {
   padding: 90px 0 25px 0;
@@ -290,8 +290,8 @@
   margin: 0 auto;
 }
 .contactPage .contactContainer .contactForm input, .contactPage .contactContainer .contactForm textarea {
-  background-color: #F9F8F3;
-  color: #4B4944;
+  background-color: #E0E6EB;
+  color: #44494F;
   margin-top: 10px;
   padding: 15px 5px;
   border: none;
@@ -326,7 +326,7 @@
   color: #FFFFFF;
 }
 .contactPage .contactContainer .socialLinks ul li a :hover, .contactPage .contactContainer .socialLinks ul li a :active {
-  color: #F9F8F3;
+  color: #E0E6EB;
   opacity: 0.6;
 }
 .contactPage .contactContainer .copyright {
