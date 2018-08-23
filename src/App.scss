@@ -444,6 +444,17 @@ $white: #FFFFFF;
   }
 }
 
+@media(min-width: 1000px) {
+  .contactPage {
+    .contactContainer {
+      .contactForm{
+        width: 50%;
+      }
+    }
+  }
+
+}
+
 @media (max-width: 750px) { // Mobile
     .contactPage {
       .contactContainer {

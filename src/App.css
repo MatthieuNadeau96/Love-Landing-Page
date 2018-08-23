@@ -379,6 +379,11 @@
   padding: 0 20px 0 0;
 }
 
+@media (min-width: 1000px) {
+  .contactPage .contactContainer .contactForm {
+    width: 50%;
+  }
+}
 @media (max-width: 750px) {
   .contactPage .contactContainer .socialLinks ul {
     margin: 75px 0 10px 0;
