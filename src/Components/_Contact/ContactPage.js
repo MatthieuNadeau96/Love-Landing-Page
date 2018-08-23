@@ -10,6 +10,7 @@ class ContactPage extends Component {
       <div className="contactPage">
         <div className="contactContainer">
           <div className="title">Get in touch</div>
+          <div className="underline"/>
           <form className="contactForm">
             <input className="name" type="text" name="name" placeholder="Your Name"/>
             <input className="phone" type="tel" name="phone" placeholder="Your Phone Number"/>

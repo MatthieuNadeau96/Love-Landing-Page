@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: "Montserrat", sans-serif;
 }
 
 .navBar {
@@ -11,10 +12,11 @@
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  background-color: #44494F;
+  background-color: #4F7398;
   color: #E0E6EB;
   text-transform: uppercase;
   font-weight: bold;
+  box-shadow: 0 1px 2px rgba(68, 68, 68, 0.3);
 }
 .navBar a {
   text-decoration: none;
@@ -140,10 +142,13 @@
 .homePage .homeContent .title {
   font-size: 4em;
   margin-bottom: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 .homePage .homeContent .subTitle {
   font-size: 1.8em;
   margin-bottom: 80px;
+  font-weight: 700;
 }
 .homePage .homeContent .learnMoreBtn {
   margin: 0 auto;
@@ -153,7 +158,8 @@
   background: #EAD170;
   border-radius: 25px;
   color: #FFFFFF;
-  text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.06);
+  text-shadow: 0px 2px 4px rgba(68, 68, 68, 0.1);
+  box-shadow: 0 1px 2px rgba(68, 68, 68, 0.3);
   border: none;
   font-size: 1em;
   text-transform: uppercase;
@@ -186,13 +192,23 @@
   background-color: #FFFFFF;
   color: #44494F;
 }
+.servicePage .page-title {
+  padding-top: 150px;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.servicePage .page-subText {
+  font-weight: 300;
+}
 .servicePage .serviceContainer {
   display: flex;
   justify-content: center;
   flex-direction: row;
   height: 100%;
   width: 75%;
-  padding: 80px 0 150px 0;
+  padding: 80px 0 200px 0;
   margin: 0 auto;
 }
 .servicePage .serviceContainer .content {
@@ -204,20 +220,16 @@
   font-size: 3em;
   margin-bottom: 20px;
   color: #EAD170;
-  text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.06);
+  text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.09);
 }
 .servicePage .serviceContainer .content .title {
   font-size: 1.5em;
   margin-bottom: 14px;
+  font-weight: 500;
 }
 .servicePage .serviceContainer .content .text {
   font-size: 0.85em;
   margin-bottom: 20px;
-}
-
-.page-title {
-  padding-top: 70px;
-  font-size: 40px;
 }
 
 @media (max-width: 750px) {
@@ -235,21 +247,23 @@
   color: #44494F;
 }
 .aboutPage .aboutContainer {
-  padding: 100px 0 100px 0;
+  padding: 150px 0 150px 0;
   width: 60%;
   margin: 0 auto;
 }
 .aboutPage .aboutContainer .title {
   font-size: 40px;
-  padding-bottom: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 .aboutPage .aboutContainer .underline {
-  border-bottom: 2px solid black;
-  width: 50%;
+  border-bottom: 1px solid black;
+  width: 50px;
+  height: 1px;
   margin: 20px auto;
 }
 .aboutPage .aboutContainer .text {
-  padding-top: 2px;
+  font-weight: 400;
 }
 .aboutPage .aboutContainer .aboutButton {
   margin: 60px auto 0 auto;
@@ -264,7 +278,8 @@
   text-transform: uppercase;
   font-weight: bold;
   cursor: pointer;
-  text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.06);
+  text-shadow: 0px 2px 4px rgba(68, 68, 68, 0.1);
+  box-shadow: 0 1px 2px rgba(68, 68, 68, 0.3);
 }
 
 @media (max-width: 750px) {
@@ -277,11 +292,18 @@
   color: #E0E6EB;
 }
 .contactPage .contactContainer {
-  padding: 90px 0 25px 0;
+  padding: 150px 0 25px 0;
 }
 .contactPage .contactContainer .title {
   font-size: 40px;
-  margin-bottom: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.contactPage .contactContainer .underline {
+  border-bottom: 1px solid #E0E6EB;
+  width: 50px;
+  height: 1px;
+  margin: 25px auto;
 }
 .contactPage .contactContainer .contactForm {
   display: flex;
@@ -307,7 +329,8 @@
   text-transform: uppercase;
   font-weight: bold;
   cursor: pointer;
-  text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.06);
+  text-shadow: 0px 2px 4px rgba(68, 68, 68, 0.1);
+  box-shadow: 0 1px 2px rgba(68, 68, 68, 0.3);
 }
 .contactPage .contactContainer .socialLinks ul {
   list-style: none;
