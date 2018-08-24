@@ -17,7 +17,7 @@ class ContactPage extends Component {
             <input className="email" type="email" name="email" placeholder="Your Email"/>
             <textarea className="message" name="message" placeholder="Your Message"/>
           </form>
-          <a href="/"><button>Send Message</button></a>
+          <a><button>Send Message</button></a>
           <SocialLinks/>
           <Copyright/>
         </div>
