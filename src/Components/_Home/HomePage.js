@@ -27,7 +27,7 @@ class HomePage extends Component {
   }
 
   handleScrollToElement = (e) => {
-    window.scrollTo(0, this.myRef);
+    window.scrollTo({top: this.myRef, behavior: 'smooth'});
   }
 
   render() {
